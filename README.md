@@ -13,6 +13,7 @@ mysql_util = MysqlUtil('localhost', 'root', '1234', 'AI_config')  # 数据库配
 sklearn_names = ['cluster', 'isotonic']  # 需要爬取的算法包名
 ```
 建议修改项：`mysql_util`,`sklearn_names`
+
 2. 运行及debug配置：
 
 配置好了上述环境之后，其实就可以直接在根目录下执行`scrapy crawl <spider名>`(初始为：`scrapy crawl sklearn
